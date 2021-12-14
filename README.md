@@ -1,27 +1,27 @@
 # cs492_sbs
-diet_for_kaist_cafeteria
-if you have any questions, contact sbs0323@kaist.ac.kr
-also pretrained_model might be deleted in my google drive, when long time after
+diet_for_kaist_cafeteria  
+if you have any questions, contact sbs0323@kaist.ac.kr  
+also pretrained_model might be deleted in my google drive, when long time after  
 
-I recommend you do these things in ubuntu 20.04 (my case)
-##########################################
-0. make conda environment 
-conda create --name NAME python=3.8
-conda activate NAME
-pip install -r require_sbs.txt
+I recommend you do these things in ubuntu 20.04 (my case)  
+##########################################  
+0. make conda environment   
+conda create --name NAME python=3.8  
+conda activate NAME  
+pip install -r require_sbs.txt  
+ 
+1. download pretrained files ( my google drive links connected )  
+python download.py  
 
-1. download pretrained files ( my google drive links connected )
-python download.py
+2. execute main file  
+python CS492_final_sbs.py  
 
-2. execute main file
-python CS492_final_sbs.py
+3. manual  
+prepare not tilted image of kaist cafeteria food.  
 
-3. manual
-prepare not tilted image of kaist cafeteria food.
+'predict_calories' button is automatically executed    
+you can test the images by clicking buttons in order also.    
 
-'predict_calories' button is automatically executed
-you can test the images by clicking buttons in order also.
-
-########################################
-# this project thanks to yolov5, Detectron2 open source
-# its code was edited little bit by my self.
+########################################  
+# this project thanks to yolov5, Detectron2 open source    
+# its code was edited little bit by my self.  
