@@ -28,26 +28,22 @@ you can test the images by clicking buttons in order also.
 # For training yolo [아래 segmentation 트레이닝 가이드라인 참고] 
 
 ########################################  
-goto cs492_project_training directory
-0. to learn single images for food go to https://aihub.or.kr/aidata/30747 to download them.  
-다운로드 받아서 머 어떻게? 
+0. to learn single images for food go to https://aihub.or.kr/aidata/30747 to download them.
+   you should unzip and use json2txt_labe.py to change labeling format.
+   type python json2txt_label.py [AI hub label directory] cs492_project_training/datasets/[Directory Name]/labels
+   Also, image files should be moved to cs492_project_training/datasets/[Directory Name]/images
 
-1. download kaist food data
-python download_data.py,  
+   to download kaist food data python download_data.py and unzip them
+   
+1. to train use command
+  python train.py --data [DATA] --cfg [VERSION] --weights [PRETRAIN] --batch-size [SIZE]
+  you can refer detail instructions in https://github.com/ultralytics/yolov5
 
-## 여기까지하면 zip파일 압축해재해서 datasets 폴더안에 들어가있음.
-
-2. kama_final.yaml은 어디에 넣고, aihub data는 어디에 활용하고? json2txt_label.py 는 왜 제일 밖에 있고  
-3. 걍 python json2txt_label.py ? 에러날거 같은데 , 트레이닝 결과는 어디 생기고, 등등
-  종류디텍션이름 : best.pt / 식판디텍션 이름 : base_best.pt
-5. 채점할것도 많은데 내가 조교면 걍 이부분 점수 안주고 넘어감. 
-
-#######################################
-0. to learn single images for food go to https://aihub.or.kr/aidata/30747 to download them.  
-1. to train use command  
-python train.py --data DATA --cfg VERSION --weights PRETRAIN --batch-size SIZE  
-you can refer detail instructions in https://github.com/ultralytics/yolov5  
-2. KAIST food images are included and you can train them with kama_final.yaml  
+2. If you didn't add parameter for directory for results, it will be saved in ./runs/train/
+   Best model is saved as "best.pt
+   
+3. KAIST food images are included and you can train them with kama_final.yaml
+   AI hub images can be trained with food.yaml
 
 ########################################  
 
