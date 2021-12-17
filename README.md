@@ -58,6 +58,10 @@ to download kaist food data python download_data.py and unzip them
    
    AI hub images can be trained with food.yaml
 
+!!We have some problems in pusing files. We tried to upload some important files for running our code. 
+!!However, if there's some problem, please refer yolov5 github and use their files.
+!!Also, you can ask us for some problems. 
+
 ########################################  
 
 # For training segmentation  
