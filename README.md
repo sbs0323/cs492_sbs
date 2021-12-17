@@ -25,9 +25,10 @@ you can test the images by clicking buttons in order also.
 
 ########################################  
 
-# For training yolo [아래 segmentation 트레이닝 가이드라인 참고] 
+# For training yolo 
 
 ########################################  
+
 0. to learn single images for food go to https://aihub.or.kr/aidata/30747 to download them.
    you should unzip and use json2txt_labe.py to change labeling format.
    type python json2txt_label.py [AI hub label directory] cs492_project_training/datasets/[Directory Name]/labels
