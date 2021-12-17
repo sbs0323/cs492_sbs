@@ -1,0 +1,14 @@
+
+path: ../datasets/kama_final
+train: images
+val: images
+test: #test images
+
+nc: 91
+names: [ 'multigrain_rice','kimchi','salad','mandu','seaweed','seaweed_soup','yubu_soup','pickled_radish','curry_rice','spagetti','fried_chicken','oden_soup','tteokbokki'
+  ,'bean_sprouts','bibimbab','stir_fried_pork','soondae','pasta','bread','kimchi_stew','meatball','mook','bean_sprouts_soup','chicken_soup','pork_bibimbab'
+  ,'steak','rice','mackerel','namul_rice','miso_soup','takoyaki','katsudon','tufu_stew','buchu_namul','zazang_rice','noodle','fried_noodle','lettuce','pickle'
+  ,'dongas','omrice','brocoli','meet_stew','jeon','curry_chicken','mushroom','oden','hotdog','fried_rice','fried_egg','salad_maca','potato_stew','seaweed_tufu'
+  ,'kimchi_soup','egg_soup','fried_tufu','source','drink','cabbage','bean_sprouts_rice','britto','bulgogi','sotteok','tufu','radish','chicken_stew','sauce_rice'
+  ,'fish','garlic_species','lotus','japchae','fried_potato','udon','yogurt','sausage','egg_custard','namul','gomtang','namul_green','chicken','stew','pepper'
+  ,'meat_stew','fried','egg','sidedish','cutlet','meat_rice','soup','sidedish2','potato' ]

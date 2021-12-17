@@ -1,0 +1,7 @@
+path: ../datasets/plates
+train: images
+val: images
+test: #test images
+
+nc: 1
+names: [ 'plates' ]

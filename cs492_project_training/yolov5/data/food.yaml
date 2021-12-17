@@ -1,0 +1,9 @@
+
+path: ../datasets/food
+train: images/train
+val: images/train
+test: #test images
+
+nc: 29
+names: [ 'rice', 'bread', 'noodle', 'porridge', 'soup', 'stew', 'steamed dish', 'grilled dish', 'jeon', 'stir-fry', 'jorim', 'fried', 'Namul', 'Muchim'
+          ,'Kimchi', 'jeotgal', 'pickled food', 'sauce', 'dairy', 'juice', 'alcohol', 'fruit', 'sugars', 'grain', 'nuts', 'vegetable', 'sous vide', 'fats', 'rest' ]
