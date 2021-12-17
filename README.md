@@ -17,15 +17,15 @@ python download.py
 2. execute main file  
 python CS492_final_sbs.py  
 
-3. manual  
-prepare not tilted image of kaist cafeteria food.  
+3. execution guideline
+first of all prepare not tilted image of kaist cafeteria food.  
 
 'predict_calories' button is automatically executed    
 you can test the images by clicking buttons in order also.    
 
 ########################################  
 
-For training yolo [아래 segmentation 트레이닝 가이드라인 참고] 
+# For training yolo [아래 segmentation 트레이닝 가이드라인 참고] 
 
 ########################################  
 goto cs492_project_training directory
@@ -33,7 +33,9 @@ goto cs492_project_training directory
 다운로드 받아서 머 어떻게? 
 
 1. download kaist food data
-python download_data.py, 
+python download_data.py,  
+
+## 여기까지하면 zip파일 압축해재해서 datasets 폴더안에 들어가있음.
 
 2. kama_final.yaml은 어디에 넣고, aihub data는 어디에 활용하고? json2txt_label.py 는 왜 제일 밖에 있고  
 3. 걍 python json2txt_label.py ? 에러날거 같은데 , 트레이닝 결과는 어디 생기고, 등등
@@ -51,7 +53,7 @@ you can refer detail instructions in https://github.com/ultralytics/yolov5
 
 ########################################  
 
-For training segmentation  
+# For training segmentation  
 
 ########################################  
 go to directory 'cs492_project/segmentation/'  
