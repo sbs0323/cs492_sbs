@@ -25,7 +25,7 @@ you can test the images by clicking buttons in order also.
 
 ########################################  
 
-For training yolo
+For training yolo [아래 segmentation 트레이닝 가이드라인 참고]
 
 ########################################  
 goto cs492_project_training directory
@@ -37,7 +37,8 @@ python download_data.py,
 
 2. kama_final.yaml은 어디에 넣고, aihub data는 어디에 활용하고? json2txt_label.py 는 왜 제일 밖에 있고  
 3. 걍 python json2txt_label.py ? 에러날거 같은데 , 트레이닝 결과는 어디 생기고, 등등
-4. 채점할것도 많은데 내가 조교면 걍 이부분 점수 안주고 넘어감. 
+  종류디텍션이름 : best.pt / 식판디텍션 이름 : base_best.pt
+5. 채점할것도 많은데 내가 조교면 걍 이부분 점수 안주고 넘어감. 
 
 #######################################
 0. to learn single images for food go to https://aihub.or.kr/aidata/30747 to download them.  
