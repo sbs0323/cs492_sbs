@@ -44,7 +44,7 @@ to download kaist food data python download_data.py and unzip them
 
   for AI hub: python train.py --data food.yaml --cfg yolov5s --weights '' 
 
-  for KAIST images: python train.py --data kama_final.yaml --weights [AIhub bets.pt directory] 
+  for KAIST images: python train.py --data kama_final.yaml --weights [AIhub best.pt directory] 
 
   you can refer detail instructions in https://github.com/ultralytics/yolov5
 
