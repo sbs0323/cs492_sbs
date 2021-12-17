@@ -25,7 +25,7 @@ you can test the images by clicking buttons in order also.
 
 ########################################  
 
-For training yolo [아래 segmentation 트레이닝 가이드라인 참고]
+For training yolo [아래 segmentation 트레이닝 가이드라인 참고] 
 
 ########################################  
 goto cs492_project_training directory
@@ -56,14 +56,14 @@ For training segmentation
 ########################################  
 go to directory 'cs492_project/segmentation/'  
 1. you can make COCO image datasets[for single croped image] using 'labelme' and 'labelme2coco',   
-2-1. i already give some of datasets for users.  
-2-2. if you want to put your custom datasets, prepare COCO image dataset[for single croped image] into directory 'cs492_project/segmentation/images'  
-3. do not modify detectron2_train.py settings.   
-4. just execute  
+1-1. i already give some of datasets for users.  
+1-2. if you want to put your custom datasets, prepare COCO image dataset[for single croped image] into directory 'cs492_project/segmentation/images'  
+2. do not modify detectron2_train.py settings.   
+3. just execute  
    python detectron2_train.py  
-5. final weight might be in cs492_project/segmentation/output/mode_final.pth  
-6. move it to 'cs492_project/' dierectory  
-7. Rename it 'model_final_best.pth'  
+4. final weight might be in cs492_project/segmentation/output/mode_final.pth  
+5. move it to 'cs492_project/' dierectory  
+6. Rename it 'model_final_best.pth'  
 ########################################  
 
 # this project thanks to yolov5, Detectron2 open source    
