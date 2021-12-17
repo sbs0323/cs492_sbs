@@ -46,7 +46,6 @@ you can test the images by clicking buttons in order also.
 3. KAIST food images are included and you can train them with kama_final.yaml
    AI hub images can be trained with food.yaml
 
-########################################  
 
 ########################################  
 
