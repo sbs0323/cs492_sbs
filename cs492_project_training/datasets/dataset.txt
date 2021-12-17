@@ -1,0 +1,1 @@
+This folder is for datasets which should be used for yolov5 training
