@@ -37,16 +37,23 @@ Also, image files should be moved to cs492_project_training/datasets/[Directory 
 to download kaist food data python download_data.py and unzip them
    
 1. to train use command
+
 python train.py --data [DATA] --cfg [VERSION] --weights [PRETRAIN] --batch-size [SIZE]
+
 commands that we used are following
+
 for AI hub: python train.py --data food.yaml --cfg yolov5s --weights '' 
+
 for KAIST images: python train.py --data kama_final.yaml --weights [AIhub bets.pt directory] 
+
 you can refer detail instructions in https://github.com/ultralytics/yolov5
 
 2. If you didn't add parameter for directory for results, it will be saved in ./runs/train/
+   
    Best model is saved as "best.pt
    
 3. KAIST food images are included and you can train them with kama_final.yaml
+   
    AI hub images can be trained with food.yaml
 
 
